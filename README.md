@@ -28,7 +28,7 @@ Postman collection link:- https://www.getpostman.com/collections/dd50c787caa3886
 
 
 ### Tweet Api
-* POST - https://albanero.herokuapp.com/api/v1/tweet/create: to register with username and password. You'll need to send a JSON in the request body:
+* POST - https://albanero.herokuapp.com/api/v1/tweet/create:  You'll need to send a JSON in the request body:
 {
     "content":"test tweet 3"
 }
@@ -42,10 +42,7 @@ token : your login token
 
 * GET - https://albanero.herokuapp.com/api/v1/tweet/get-all-others: to get all tweets of other than logged in user
 
-* PUT - https://albanero.herokuapp.com/api/v1/tweet/update/tweetId: to update tweet with tweetId. You'll need to send a JSON in the request body:
-{
-   "content":"edit content"
-}
+* PUT - https://albanero.herokuapp.com/api/v1/tweet/update/tweetId: to update tweet with tweetId. 
 
 
 * DELETE - https://albanero.herokuapp.com/api/v1/tweet/delete/tweetId: to delete tweet with tweetId.
